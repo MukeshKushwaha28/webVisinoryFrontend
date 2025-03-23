@@ -118,8 +118,9 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
               )}
             </button>
 
-            <button className="bg-pink-600 text-white px-6 py-2 rounded-full hover:bg-pink-700">
-              Get In Touch
+            <button className=" px-6 py-3 relative overflow-hidden rounded-full bg-pink-500 font-semibold text-white hover:text-white group">
+              <span className="relative z-10">Get In Touch</span>
+              <span className="absolute inset-0 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 transition-transform duration-500 transform -translate-x-full text-white group-hover:translate-x-0"></span>
             </button>
           </div>
         </div>

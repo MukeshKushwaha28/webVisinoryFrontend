@@ -45,7 +45,7 @@ export default function ServiceCards() {
   const [activeId, setActiveId] = useState(1);
 
   return (
-    <div className=" container mx-auto px-20  items-center">
+    <div className=" container mx-auto px-20  items-center pb-24">
       <div className=" pt-24">
         <Button text={"Comprehenssive Services"} />
 
